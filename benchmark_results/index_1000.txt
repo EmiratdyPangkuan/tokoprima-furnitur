@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.4.58
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /tokoprima/public/index.php
+Document Length:        189574 bytes
+
+Concurrency Level:      10
+Time taken for tests:   5.426 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      189881000 bytes
+HTML transferred:       189574000 bytes
+Requests per second:    184.29 [#/sec] (mean)
+Time per request:       54.262 [ms] (mean)
+Time per request:       5.426 [ms] (mean, across all concurrent requests)
+Transfer rate:          34173.40 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.4      0       1
+Processing:     9   54  17.6     49     251
+Waiting:        8   52  17.6     48     250
+Total:         10   54  17.6     49     251
+
+Percentage of the requests served within a certain time (ms)
+  50%     49
+  66%     53
+  75%     56
+  80%     58
+  90%     62
+  95%     65
+  98%     69
+  99%    148
+ 100%    251 (longest request)

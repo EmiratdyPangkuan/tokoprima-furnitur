@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.4.58
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /tokoprima/public/laporan.php
+Document Length:        22169 bytes
+
+Concurrency Level:      5
+Time taken for tests:   2.272 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      11238000 bytes
+HTML transferred:       11084500 bytes
+Requests per second:    220.05 [#/sec] (mean)
+Time per request:       22.722 [ms] (mean)
+Time per request:       4.544 [ms] (mean, across all concurrent requests)
+Transfer rate:          4830.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.4      0       1
+Processing:     7   21   8.9     20     211
+Waiting:        6   20   8.8     19     210
+Total:          7   21   8.9     20     211
+
+Percentage of the requests served within a certain time (ms)
+  50%     20
+  66%     21
+  75%     22
+  80%     22
+  90%     23
+  95%     24
+  98%     27
+  99%     29
+ 100%    211 (longest request)
