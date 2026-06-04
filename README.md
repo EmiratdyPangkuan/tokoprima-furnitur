@@ -1,6 +1,9 @@
 # 🪑 TOKO PRIMA FURNITUR
 ## Sistem Informasi Penjualan Terintegrasi untuk Optimasi Pengelolaan Stok
-
+**ANGGOTA KELOMPOK**
+1. Emiratdy Pangkuan
+2. Husaini Ibnu
+3. Nashya Deswita
 ---
 
 ### 📁 STRUKTUR FOLDER
@@ -32,7 +35,7 @@ tokoprima/
 
 ---
 
-### 🚀 CARA MENJALANKAN
+### 🚀 CARA MENJALANKAN DI XAMPP
 
 1. **Import Database:**
    - Buka phpMyAdmin (http://localhost/phpmyadmin)
