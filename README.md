@@ -4,34 +4,6 @@
 1. Emiratdy Pangkuan
 2. Husaini Ibnu
 3. Nashya Deswita
----
-
-### 📁 STRUKTUR FOLDER
-
-```
-tokoprima/
-├── config/
-│   └── koneksi.php          # Koneksi PDO + helper functions
-├── public/
-│   ├── index.php            # Dashboard & Data Barang (CRUD utama)
-│   ├── tambah.php           # Form Tambah Barang
-│   ├── edit.php             # Form Edit Barang
-│   ├── hapus.php            # Halaman Konfirmasi Hapus
-│   ├── stok.php             # Manajemen Stok (Sorting + Filter)
-│   ├── stok_edit.php        # Edit Stok Barang
-│   ├── transaksi.php        # Daftar Transaksi (Sorting + Filter)
-│   ├── transaksi_tambah.php # Form Tambah Transaksi (Multi-item)
-│   ├── transaksi_detail.php # Detail Laporan Transaksi
-│   └── laporan.php          # Dashboard Laporan Komprehensif
-├── proses/
-│   ├── insert.php           # Proses Insert (Barang, Pembeli, Karyawan, Transaksi)
-│   ├── update.php           # Proses Update (Barang, Pembeli, Karyawan, Stok, Status)
-│   └── delete.php           # Proses Delete (Semua tabel dengan validasi)
-├── assets/
-│   └── css/
-│       └── style.css        # CSS Modern Orange-White Theme
-└── tokoprima.sql            # Database SQL lengkap dengan data sample
-```
 
 ---
 
